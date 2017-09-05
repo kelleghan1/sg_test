@@ -1,0 +1,192 @@
+p {
+	font-size: 18px;
+	font-weight: 400;
+	color: #515151;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+h1 {
+	color: #3b5998;
+	font-size: 45px;
+	font-weight: 600;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 45px;
+	font-weight: 600;
+	margin-top: 0;
+}
+
+h3 {
+	font-size: 30px;
+	font-weight: 400;
+	color: #9D9D9D;
+	margin-bottom: 60px;
+	margin-top: 5px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: grey;
+}
+
+#icons {
+	background-color: #F4F4F4;
+}
+
+.flex {
+	display: flex;
+}
+
+.icon-wrap {
+	flex: 1;
+	text-align: center;
+	color: #3b5998;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#header {
+	padding: 15px 0;
+	background-color: #3b5998;
+	color: #fff;
+	font-weight: bold;
+}
+
+.navbar-nav {
+	float: right;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border: none;
+}
+
+/*I normally wouldn't use the !important tag this much*/
+
+.navbar-default a {
+	color: #fff!important;
+}
+
+.dropdown-menu {
+	background-color: #3b5998;
+}
+
+.icon-bar{
+	background-color: #fff!important;
+}
+
+.modal-content {
+	overflow: auto;
+}
+
+.modal-header {
+	background-color: #3b5998;
+}
+
+.modal-header h4 {
+	color: #fff;
+}
+
+#logo {
+	font-size: 35px;
+	font-weight: 600;
+}
+
+section {
+	width: 100%;
+}
+
+#banner {
+	background-image: url('/imgs/banner.jpg');
+	background-size: cover;
+	position: relative;
+}
+
+#banner .banner-content {
+	color: #fff;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#banner h1, #banner h3 {
+	margin-bottom: 20px;
+	color: #fff;
+
+}
+
+#banner p {
+	color: #fff;
+	margin: 0 0 10px 0;
+}
+
+ul {
+	padding-left: 22px;
+}
+
+li {
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+}
+
+#cta {
+	border: 2px solid #fff;
+	border-radius: 5px;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+#cta p {
+	margin: 10px 20px;
+}
+
+.overlay:before{
+	position: absolute;
+	content:" ";
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	display: block;
+	z-index:0;
+	background-color: rgba(0,0,0,0.3);
+}
+
+#what-we-do {
+	background-color: #fff;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.box {
+	background-color: #3b5998;
+	text-align: center;
+	color: #fff;
+	font-size: 25px;
+	font-weight: 400;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	margin-bottom: 15px;
+}
+
+#vision {
+	background-color: #F4F4F4;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.circle {
+	background-image: url(/imgs/eye.jpg);
+	background-size: cover;
+	height: 180px;
+	width: 180px;
+	border-radius: 90px;
+	background-position: center;
+	margin: 0 auto;
+}
